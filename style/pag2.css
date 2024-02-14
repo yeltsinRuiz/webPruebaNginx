@@ -1,0 +1,47 @@
+button {
+    margin-right: 100px;
+    display: inline-block; /* Hace que el enlace se comporte como un botón */
+    background-color: #14cfb0; /* Color de fondo */
+    color: #b10707; /* Color del texto */
+    padding: 10px 20px; /* Espacio interno */
+    border: none; /* Sin borde */
+    border-radius: 5px; /* Borde redondeado */
+    cursor: pointer; /* Cambia el cursor al pasar el ratón */
+    font-size: 16px; /* Tamaño de la fuente */
+    text-decoration: none; /* Elimina el subrayado predeterminado del enlace */
+  }
+  
+  button:hover {
+    background-color: #091fab; /* Cambia el color de fondo al pasar el ratón */
+  }
+
+  .boton {
+    display: inline-block; /* Hace que el enlace se comporte como un botón */
+    background-color: #14cfb0; /* Color de fondo */
+    color: #b10707; /* Color del texto */
+    padding: 10px 20px; /* Espacio interno */
+    border: none; /* Sin borde */
+    border-radius: 5px; /* Borde redondeado */
+    cursor: pointer; /* Cambia el cursor al pasar el ratón */
+    font-size: 16px; /* Tamaño de la fuente */
+    text-decoration: none; /* Elimina el subrayado predeterminado del enlace */
+  }
+  
+  .boton:hover {
+    background-color: #091fab; /* Cambia el color de fondo al pasar el ratón */
+  } 
+  .boton2 {
+    display: inline-block; /* Hace que el enlace se comporte como un botón */
+    background-color: #6c0d9b; /* Color de fondo */
+    color: #b10707; /* Color del texto */
+    padding: 10px 20px; /* Espacio interno */
+    border: none; /* Sin borde */
+    border-radius: 5px; /* Borde redondeado */
+    cursor: pointer; /* Cambia el cursor al pasar el ratón */
+    font-size: 16px; /* Tamaño de la fuente */
+    text-decoration: none; /* Elimina el subrayado predeterminado del enlace */
+  }
+  
+  .boton2:hover {
+    background-color: #091fab; /* Cambia el color de fondo al pasar el ratón */
+  }

@@ -1,0 +1,78 @@
+body{
+    background-color: rgb(64, 149, 223);/*color de fondo*/
+    color: rgb(234, 6, 33);/*color a los textos*/
+}
+header{
+    background-color: brown;/**/
+}
+h1{
+  font-size: 40px;
+  text-align: center;
+}
+p{
+  color: rgb(25, 219, 138);/*color  a los parrafos*/
+  font-size: 20px;/*tamaño a los parrafos*/
+}
+p.color1 {
+  color: black;/*color  a los parrafos*/
+  text-align: center;/*centrar los parrfos*/
+  font-size: 20px;/*tamaño a los parrafos*/
+}
+p.color2{
+  color: rgb(216, 8, 67);/*color  a los parrafos*/
+  text-align: right;/*centrar los parrfos*/
+  font-size: 40px;/*tamaño a los parrafos*/
+}
+.div1{
+  background-color: #b10707;
+}
+.div2{
+  background-color: burlywood;
+}
+img{
+    height: 500px;/*altura*/
+    width: 400px;/*ancho*/
+    border-radius: 400px;/* curbatura de la imagen*/
+    border: 5px solid red;/* tamaño / color*/
+    padding: 10px; /* espacion entre img y borde*/
+    
+}
+
+
+
+.imagen-animada {
+    width: 500px; /* Ajusta el ancho de tu imagen */
+    height: auto; /* Mantiene la proporción de aspecto */
+    animation: mover 10s ease infinite; /* Aplicando la animación 'mover' */
+  }
+
+  @keyframes mover {
+    0% {
+      transform: translateX(0); /* Estado inicial de la animación */
+    }
+    50% {
+      transform: translateX(1000px); /* Estado intermedio de la animación */
+    }
+    100% {
+      transform: translateX(0); /* Estado final de la animación */
+    }
+  }
+
+  .boton {
+    display: inline-block; /* Hace que el enlace se comporte como un botón */
+    background-color: #14cfb0; /* Color de fondo */
+    color: #b10707; /* Color del texto */
+    padding: 10px 20px; /* Espacio interno */
+    border: none; /* Sin borde */
+    border-radius: 5px; /* Borde redondeado */
+    cursor: pointer; /* Cambia el cursor al pasar el ratón */
+    font-size: 16px; /* Tamaño de la fuente */
+    text-decoration: none; /* Elimina el subrayado predeterminado del enlace */
+  }
+  
+  .boton:hover {
+    background-color: #091fab; /* Cambia el color de fondo al pasar el ratón */
+  }
+   
+  
+
